@@ -22,7 +22,7 @@ const ViewSelector = ({ toggleForm }) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-lg mx-auto relative h-auto max-h-[95vh] overflow-auto">
+    <div className="bg-white lg:w-[100vw] rounded-lg shadow-lg p-8 w-full max-w-lg mx-auto relative h-auto max-h-[95vh] overflow-auto">
       <button
         className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
         onClick={handleCloseClick}
