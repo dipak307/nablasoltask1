@@ -17,7 +17,7 @@ const ProjectManagerPermissions = ({ toggleForm }) => { // Accept toggleForm as 
    }
 
   return (
-    <div className="bg-white rounded-lg shadow-lg w-full max-w-md md:max-w-lg p-8 md:p-12">
+    <div className="bg-white lg:w-[100vw] rounded-lg shadow-lg w-full max-w-md md:max-w-lg p-8 md:p-12">
       {/* Close Button */}
       <button
         className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
