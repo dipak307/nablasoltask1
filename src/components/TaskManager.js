@@ -41,7 +41,7 @@ const TaskList = ({ toggleForm }) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 lg:p-8 w-full max-w-md lg:max-w-[calc(100%+200px)] mx-auto relative h-[95vh] overflow-hidden">
+    <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 lg:p-8 w-full max-w-md lg:max-w-[calc(100%+200px)] mx-auto relative h-[98vh] overflow-hidden">
     <button
       className="absolute top-2 right-2 text-black cursor-pointer hover:text-red-500 text-2xl"
       onClick={toggleForm}
